@@ -3,12 +3,12 @@
 
 1. Склонируйте репозиторий на свой локальный компьютер:
    ```bash
-   git clone ....................
+   git clone https://github.com/bayazitkunchaki/KuznetsovDesk.git
    ```
    
 2. Перейдите в нее:
     ```bash
-    cd TrainingSchedulesKuz
+    cd KuznetsovDesk
     ```
 
 3. Создайте виртуальное окружение:
