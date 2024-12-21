@@ -17,6 +17,7 @@ from .models import User
 class UserLoginView(SuccessMessageMixin, TitleMixin, LoginView):
     form_class = UserLoginForm
     title = 'Белгородский ГАУ - Вход'
+    template_name = 'users/registration.html'
 
     def get(self, request, *args, **kwargs):
         return redirect('users:auth')
